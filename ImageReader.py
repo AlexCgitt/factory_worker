@@ -114,7 +114,7 @@ class ImageReaderWindow(QWidget):
 
         del image_reader
 
-
+#backup one
 class ImageReaderWindow2(QWidget):
     def __init__(self):
         super().__init__()
