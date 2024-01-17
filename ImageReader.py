@@ -154,7 +154,7 @@ class ImageReaderWindow2(QWidget):
 
 
 if __name__ == '__main__':
-    path = "Image1.fm1"
+    path = "data/Image1.fm1"
     reader = ImageReaderFactory.create_image_reader(path)
     print("\n".join(reader.read_file()))
     app = QApplication(sys.argv)
